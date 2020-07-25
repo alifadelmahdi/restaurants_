@@ -1,0 +1,25 @@
+.navbar{
+    background-color: gray;
+}
+.navbar-brand{
+    color: black;
+}
+.top-container{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 90px;
+}
+.top-container img{
+    width: 400px;
+    height: 400px;
+    text-align: left;
+}
+.top-container div{
+    display: inline-block;
+    font-size: 70px;
+
+}
+.top-container .h1{
+    font-size: 60px;
+    padding-top: 50px;
+}
