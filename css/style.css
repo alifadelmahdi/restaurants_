@@ -4,22 +4,13 @@
 .navbar-brand{
     color: black;
 }
-.top-container{
-    width: 100%;
-    max-width: 100%;
-    margin-top: 90px;
+.navbar .dropdown-menu{
+    background-color: gray;
 }
-.top-container img{
-    width: 400px;
-    height: 400px;
-    text-align: left;
+.dropdown-item{
+    color: white;
 }
-.top-container div{
-    display: inline-block;
-    font-size: 70px;
-
-}
-.top-container .h1{
-    font-size: 60px;
-    padding-top: 50px;
+.word-logo{
+    padding-top: 90px;
+    font-size: 3.750em;
 }
