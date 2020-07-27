@@ -12,6 +12,9 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="/css/ItalianRestaurent_.css">
     <title>ItalianRestaurent_</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Red+Rose:wght@700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -40,24 +43,30 @@
         </div>
     </nav>
 
+    <!-- Welcome -->
+    <section>
+        <div class="bg-success text-center welcome-container container-fluid">
+            <h1 class="welcome">Wlcome to the <br> ItalianRestaurent_</h1>
+        </div>
+    </section>
     <!-- Food Pictures -->
-    <div id="food-images" class="carousel slide text-center bg-info" data-ride="carousel">
+    <div id="food-images" class="carousel slide text-center container-fluid bg-info" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="../images/pizza.png" class="img-fluid" alt="...">
-                <div class="text-center"> 
+                <div class="text-center mt-5"> 
                     <button type="button" class="btn btn-secondary btn-lg">Order Now</button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="../images/pasta.png" class="img-fluid" alt="...">
-                <div class="text-center">
+                <div class="text-center mt-5">
                     <button type="button" class="btn btn-secondary btn-lg">Order Now</button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="../images/bruschetta.png" class="img-fluid" alt="...">
-                <div class="text-center">
+                <div class="text-center mt-5">
                     <button type="button" class="btn btn-secondary btn-lg">Order Now</button>
                 </div>
             </div>
@@ -71,6 +80,79 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+    <!-- The Menu -->
+
+    <div class="container-fluid menu bg-danger">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="../images/promotion.png" alt="Menu" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center container-fluid">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Menu</th>
+                                <th scope="col">Food</th>
+                                <th scope="col">price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Pizza</td>
+                                <td>7$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Pasta</td>
+                                <td>13$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Panzenella</td>
+                                <td>17$</td>
+                            </tr>
+                            <tr>
+                                <th>4</th>
+                                <td>Bruschetta</td>
+                                <td>15.5$</td>
+                            </tr>
+                            <tr>
+                                <th>5</th>
+                                <td>Focaccia Bread</td>
+                                <td>9$</td>
+                            </tr>
+                            <tr>
+                                <th>6</th>
+                                <td>Mushroom Risotto</td>
+                                <td>20$</td>
+                            </tr>
+                            <tr>
+                                <th>7</th>
+                                <td>Tiramisu</td>
+                                <td>13$</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
